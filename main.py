@@ -3,6 +3,8 @@ from data import question_data
 from quiz_brain import QuizBrain
 
 question_bank = []
+print(f"main: \nquestion_data:\n{question_data}")
+
 for question in question_data:
     question_text = question["question"]
     question_answer = question["correct_answer"]
